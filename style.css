@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(nighttime-view.webp);
+}
+header {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 250px;
+    color: greenyellow;
+    text-align: center;
+}
+
+.box {
+    background-color:blueviolet;
+    margin: 15px;
+    border: solid black 5px;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    color:white;
+    
+}
+
+button {
+    font-size: 20px;
+    border: solid black 5px;
+}
+
+input {
+    font-size: 20px;
+    border: solid black 5px;
+}
+
